@@ -1,0 +1,18 @@
+---
+title: "Project Overview"
+format: html
+---
+
+## Understanding FHIR (Fast Healthcare Interoperability Resources)
+
+FHIR (Fast Healthcare Interoperability Resources) is a standard framework created by HL7 designed to facilitate the exchange of electronic health records. Unlike older standards, FHIR is built on modern web technologies—specifically a RESTful API—making it easier for different healthcare systems to share data seamlessly. It breaks down clinical data into modular "Resources," such as Patients, Encounters, and Observations. By using a standardized format, healthcare providers can ensure that data captured in one system is accurately interpreted by another, which is critical for patient safety and data-driven clinical decision-making.
+
+---
+
+## Initial Population Analysis
+
+The first step in our analysis is determining the "density" of these FHIR resources. This visualization shows what percentage of our total patient population has at least one record of a specific resource type.
+
+![FHIR Resource Density by Type](Resource_Density.png)
+
+**Key Insight:** While basic administrative and primary care data (Encounters and Immunizations) are present for nearly 100% of the population, specialized diagnostic resources like Imaging Studies are significantly less common, appearing in only about 21% of patient files.

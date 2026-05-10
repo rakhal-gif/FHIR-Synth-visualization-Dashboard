@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs   
+
+website:
+  title: "Payer Analysis FOr Healthcare Data In the USA"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Overview"
+      - href: insurance.qmd  
+        text: "Insurance Coverage"
+      - href: claims.qmd        
+        text: "Claims Analysis"
+      - href: onset.qmd         
+        text: "Age of Onset"
+      
+
+format:
+  html:
+    theme: cosmo
+    toc: true
