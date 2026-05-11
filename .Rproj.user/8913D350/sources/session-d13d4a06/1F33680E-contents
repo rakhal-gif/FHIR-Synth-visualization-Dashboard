@@ -18,5 +18,5 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: cyborg
     toc: true
