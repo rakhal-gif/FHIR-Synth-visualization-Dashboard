@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Payer Analysis FOr Healthcare Data In the USA"
+  google-analytics: "G-XXXXXXXXXX"  # <-- Paste your Measurement ID here
   navbar:
     left:
       - href: index.qmd
@@ -15,7 +16,6 @@ website:
       - href: onset.qmd         
         text: "Age of Onset"
       
-
 format:
   html:
     theme: cyborg
