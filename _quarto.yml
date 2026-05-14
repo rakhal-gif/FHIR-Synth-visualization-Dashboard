@@ -4,7 +4,11 @@ project:
 
 website:
   title: "Payer Analysis For Healthcare Data In the USA"
+<<<<<<< HEAD
   google-analytics: "G-WG7SCC1Z38" 
+=======
+  google-analytics: "G-WG7SCC1Z38"  
+>>>>>>> 1ff362f00bb3d2c275b55784d35058ba8be08231
   navbar:
     left:
       - href: index.qmd
