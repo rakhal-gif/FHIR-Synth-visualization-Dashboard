@@ -3,7 +3,7 @@ project:
   output-dir: docs   
 
 website:
-  title: "Payer Analysis FOr Healthcare Data In the USA"
+  title: "Payer Analysis For Healthcare Data In the USA"
   google-analytics: "G-WG7SCC1Z38"  
   navbar:
     left:
